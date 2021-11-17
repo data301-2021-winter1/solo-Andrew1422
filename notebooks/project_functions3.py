@@ -9,29 +9,29 @@ def removeColumnsByIndex(table, columns):
 def assign_index_to_month(table):
     index=[]
     for i in table["Month"]:
-        if i="January":
+        if i=="January":
             index.append(1)
-        elif i="Februray":
+        elif i=="Februray":
             index.append(2)
-        elif i="March":
+        elif i=="March":
             index.append(3)
-        elif i="April":
+        elif i=="April":
             index.append(4)
-        elif i="May":
+        elif i=="May":
             index.append(5)
-        elif i="June":
+        elif i=="June":
             index.append(6)
-        elif i="July"
+        elif i=="July"
             index.append(7)
-        elif i="August":
+        elif i=="August":
             index.append(8)
-        elif i="September":
+        elif i=="September":
             index.append(9)
-        elif i="October":
+        elif i=="October":
             index.append(10)
-        elif i="November":
+        elif i=="November":
             index.append(11)
-        elif i="December":
+        elif i=="December":
             index.append(12)
         else:
             index=0
