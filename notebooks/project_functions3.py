@@ -37,7 +37,3 @@ def assign_index_to_month(table):
             index.append(0)
     table["Month_index"]=index
     return table
-
-
-
-
