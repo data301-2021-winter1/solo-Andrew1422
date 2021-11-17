@@ -11,7 +11,7 @@ def assign_index_to_month(table):
     for i in table["Month"]:
         if i=="January":
             index.append(1)
-        elif i=="Februray":
+        elif i=="February":
             index.append(2)
         elif i=="March":
             index.append(3)
