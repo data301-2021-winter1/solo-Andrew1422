@@ -34,8 +34,8 @@ def assign_index_to_month(table):
         elif i=="December":
             index.append(12)
         else:
-            index=0
-    table[index]=index
+            index.append(0)
+    table["Month_index"]=index
     return table
 
 
