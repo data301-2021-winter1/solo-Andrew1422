@@ -21,7 +21,7 @@ def assign_index_to_month(table):
             index.append(5)
         elif i=="June":
             index.append(6)
-        elif i=="July"
+        elif i=="July":
             index.append(7)
         elif i=="August":
             index.append(8)
