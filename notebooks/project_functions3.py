@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pylab as plt
+import seaborn as sns
 
 def removeColumnsByIndex(table, columns):
     return table.drop(columns = table.columns[columns])
@@ -41,7 +43,7 @@ def assign_index_to_month(table):
 
 
 
-    def info(df):
+def info(df):
     df1=(
         print(f"Number of rows and columns: {df.shape}")
     )
