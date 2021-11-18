@@ -8,7 +8,8 @@ def removeColumnsByIndex(table, columns):
 
 def assign_index_to_month(table):
     index=[]
-    for i in table["Month"]:
+    table1=table.copy()
+    for i in table1["Month"]:
         if i=="January":
             index.append(1)
         elif i=="February":
@@ -35,5 +36,27 @@ def assign_index_to_month(table):
             index.append(12)
         else:
             index.append(0)
-    table["Month_index"]=index
-    return table
+    table1["Month_index"]=index
+    return table1
+
+
+
+    def info(df):
+    df1=(
+        print(f"Number of rows and columns: {df.shape}")
+    )
+    df2=(
+        display(df.head)
+    )
+    df3=(
+        sns.set(style = "darkgrid")
+    )
+    df4=(
+        plt.figure(figsize=(19,10))
+    )
+    df5=(
+        sns.lineplot(x="Month", y="Area (hectares)", hue="Jurisdiction", data = area_burned_by_month)
+    )
+    df6=(
+        plt.show()
+    )
